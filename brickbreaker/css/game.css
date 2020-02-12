@@ -1,0 +1,57 @@
+body{
+background-color:#fff;
+}
+
+h2{
+    border: 1px;
+    float:left;
+width: 46%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#myCanvas
+{
+    display: block;
+    margin: 0 auto;
+    margin-top:10px;
+
+    background-color:olivedrab;
+    border-radius: 10px;
+    border-bottom:35px solid #C2AA83;
+    box-shadow: 3px 3px 0px #888888;
+    padding-top:25px;
+}
+.heading{
+    
+    border: 2px;
+    background-color: aqua;
+    
+}
+.control{
+    border:2px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+#start, #save, #resume{
+    display:inline-block;
+     width:25%;
+    height:100px;
+    border:1px;
+    float:left;
+     
+    margin-right:1%;
+}
+#leaderboard{
+    width:20%;
+    height:100px;
+    border:1px;
+    float:right;
+
+     margin-bottom: 30px;
+}
+
+button:hover {
+		background-color: gray;
+		color: yellow;
+	  }
